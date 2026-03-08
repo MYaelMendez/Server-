@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/steipete/discrawl/internal/store"
+	"github.com/MYaelMendez/discrawl/internal/store"
 )
 
 const defaultMessageLimit = 200

@@ -9,8 +9,8 @@ import (
 	"text/tabwriter"
 	"time"
 
-	"github.com/steipete/discrawl/internal/store"
-	"github.com/steipete/discrawl/internal/syncer"
+	"github.com/MYaelMendez/discrawl/internal/store"
+	"github.com/MYaelMendez/discrawl/internal/syncer"
 )
 
 func (r *runtime) print(value any) error {

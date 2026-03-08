@@ -1,4 +1,4 @@
-module github.com/steipete/discrawl
+module github.com/MYaelMendez/discrawl
 
 go 1.26.0
 

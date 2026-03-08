@@ -1,5 +1,7 @@
 # discrawl
 
+> Forked from [steipete/discrawl](https://github.com/steipete/discrawl) (MIT license retained).
+
 `discrawl` mirrors Discord guild data into local SQLite so you can search, inspect, and query server history without depending on Discord search.
 
 It is a bot-token crawler. No user-token hacks. Data stays local.
@@ -80,8 +82,8 @@ Default runtime paths:
 Build from source:
 
 ```bash
-git clone https://github.com/steipete/discrawl.git
-cd discrawl
+git clone https://github.com/MYaelMendez/Server-.git
+cd Server-
 go build -o bin/discrawl ./cmd/discrawl
 ./bin/discrawl --version
 ```
@@ -345,6 +347,10 @@ CI runs:
 - threads are stored as channels because that matches the Discord model
 - archived threads are part of the sync surface
 - live sync is resumable; large guilds still take time because Discord rate limits history backfill
+
+---
+
+MCP64 · SOLI DEO GLORIA · 🦞🧶 >_
 
 ## License
 
