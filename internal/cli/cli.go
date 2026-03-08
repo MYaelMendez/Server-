@@ -10,10 +10,10 @@ import (
 	"time"
 
 	"github.com/bwmarrin/discordgo"
-	"github.com/steipete/discrawl/internal/config"
-	"github.com/steipete/discrawl/internal/discord"
-	"github.com/steipete/discrawl/internal/store"
-	"github.com/steipete/discrawl/internal/syncer"
+	"github.com/MYaelMendez/discrawl/internal/config"
+	"github.com/MYaelMendez/discrawl/internal/discord"
+	"github.com/MYaelMendez/discrawl/internal/store"
+	"github.com/MYaelMendez/discrawl/internal/syncer"
 )
 
 const version = "0.1.0"

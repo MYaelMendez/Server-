@@ -12,10 +12,10 @@ import (
 	"github.com/bwmarrin/discordgo"
 	"github.com/stretchr/testify/require"
 
-	"github.com/steipete/discrawl/internal/config"
-	discordclient "github.com/steipete/discrawl/internal/discord"
-	"github.com/steipete/discrawl/internal/store"
-	"github.com/steipete/discrawl/internal/syncer"
+	"github.com/MYaelMendez/discrawl/internal/config"
+	discordclient "github.com/MYaelMendez/discrawl/internal/discord"
+	"github.com/MYaelMendez/discrawl/internal/store"
+	"github.com/MYaelMendez/discrawl/internal/syncer"
 )
 
 func TestHelpAndVersion(t *testing.T) {

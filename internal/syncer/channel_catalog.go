@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/bwmarrin/discordgo"
-	"github.com/steipete/discrawl/internal/store"
+	"github.com/MYaelMendez/discrawl/internal/store"
 )
 
 func (s *Syncer) channelList(ctx context.Context, guildID string, requested []string) ([]*discordgo.Channel, bool, error) {
